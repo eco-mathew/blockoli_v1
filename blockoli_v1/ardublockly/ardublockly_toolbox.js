@@ -229,7 +229,7 @@ Ardublockly.TOOLBOX_XML =
 '    <block type="spi_transfer_return"></block>' +
 '  </category>'+
 '  <sep></sep>'+
-'  <category id="catSmartCity" name="smartcity">' +
+/*'  <category id="catSmartCity" name="smartcity">' +
 '     <category id="catLED" name="LED">' +
 '        <block type="3_led"></block>'+
 '      </category>'+
@@ -328,5 +328,49 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="dht_humid"></block>'+
 '      </category>' +
 '  </category>'+
-'  <sep></sep>'+
+'  <sep></sep>'+*/
+'  <category id="catBroccoli" name="BroccoliStage">' +
+'      <category id="catCrocodile" name="Crocodile_kit">' +
+'       <block type="io_digitalwrite">' +
+'        <value name="STATE">' +
+'          <block type="io_highlow"></block>' +
+'        </value>' +
+'       </block>' +
+'       <block type="io_digitalread"></block>' +
+'       <block type="io_highlow"></block>' +
+'       <block type="math_random_int">' +
+'        <value name="FROM">' +
+'          <block type="math_number">' +
+'            <field name="NUM">1</field>' +
+'          </block>' +
+'        </value>' +
+'        <value name="TO">' +
+'          <block type="math_number">' +
+'            <field name="NUM">100</field>' +
+'          </block>' +
+'        </value>' +
+'       </block>' +
+'       <block type="servo_write">' +
+'        <value name="SERVO_ANGLE">' +
+'          <block type="math_number">' +
+'            <field name="NUM">90</field>' +
+'          </block>' +
+'        </value>' +
+'       </block>' +
+'       <block type="servo_read"></block>' +
+'      </category>' +
+'      <category id="catSmartTrashcan" name="SmartTrashcan">' +
+'        <block type="ultra_sonic"></block>'+
+'        <block type="ultra_output"></block>'+
+'        <block type="servo_write">' +
+'         <value name="SERVO_ANGLE">' +
+'           <block type="math_number">' +
+'             <field name="NUM">90</field>' +
+'           </block>' +
+'         </value>' +
+'        </block>' +
+'        <block type="servo_read"></block>' +
+'      </category>' +
+'  </category>' +
+'  <sep></sep>' +
 '</xml>';

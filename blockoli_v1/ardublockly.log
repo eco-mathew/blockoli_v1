@@ -1077,3 +1077,583 @@ Settings file saved to:
 
 2021-07-01T04:34:09.898Z - info: [ServerMgr] Server stopped.
 2021-07-01T04:34:09.917Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-07T08:49:11.981Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-07T08:49:11.983Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-07T08:49:11.983Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-07T08:49:12.111Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-07T08:49:14.020Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-07T08:49:33.418Z - info: [ServerMgr] Server stopped.
+2021-07-07T08:49:33.428Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-07T08:49:36.212Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-07T08:49:36.215Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-07T08:49:36.215Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-07T08:49:36.335Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-07T08:49:37.559Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-07T08:52:46.373Z - info: [ServerMgr] Server stopped.
+2021-07-07T08:52:46.833Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-07T08:52:56.298Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-07T08:52:56.300Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-07T08:52:56.300Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-07T08:52:56.427Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-07T08:52:57.667Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-07T08:53:06.291Z - info: [ServerMgr] Server stopped.
+2021-07-07T08:53:06.303Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-07T08:53:08.067Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-07T08:53:08.070Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-07T08:53:08.070Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-07T08:53:08.147Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-07T08:53:09.491Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-07T08:53:16.752Z - info: [ServerMgr] Server stopped.
+2021-07-07T08:53:16.764Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-07T08:53:24.173Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-07T08:53:24.176Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-07T08:53:24.176Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-07T08:53:24.301Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-07T08:53:25.484Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-07T08:53:33.321Z - info: [ServerMgr] Server stopped.
+2021-07-07T08:53:33.341Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-07T08:53:36.290Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-07T08:53:36.293Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-07T08:53:36.293Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-07T08:53:36.374Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-07T08:53:37.788Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-07T08:54:26.418Z - info: [ServerMgr] Server stopped.
+2021-07-07T08:54:26.425Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-07T08:55:16.820Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-07T08:55:16.823Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-07T08:55:16.823Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-07T08:55:16.957Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-07T08:55:18.206Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-07T08:55:58.178Z - info: [ServerMgr] Server stopped.
+2021-07-07T08:55:58.189Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-09T07:37:32.586Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-09T07:37:32.587Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-09T07:37:32.587Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-09T07:37:32.743Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-09T07:37:34.410Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:38:08.285Z - info: [ServerMgr] Server stopped.
+2021-07-09T07:38:08.297Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-09T07:38:11.502Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-09T07:38:11.504Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-09T07:38:11.504Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-09T07:38:11.625Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-09T07:38:13.022Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:39:39.300Z - info: [ServerMgr] Server stopped.
+2021-07-09T07:40:48.992Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-09T07:40:48.994Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-09T07:40:48.994Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-09T07:40:49.117Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-09T07:40:50.560Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:47:59.515Z - info: [ServerMgr] Server stopped.
+2021-07-09T07:48:01.683Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-09T07:48:01.685Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-09T07:48:01.685Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-09T07:48:01.767Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-09T07:48:03.142Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Settings file Serial Port is not currently available:
+	{COM1, COM2, COM3}
+Default Serial Port set:
+	COM1
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:48:29.400Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	D:\git\blockoli_v1\blockoli_v1
+
+Launching the HTTP service...
+
+Serial Port set to:
+	COM1
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:48:31.351Z - info: [ServerMgr] Server stopped.
+2021-07-09T07:48:31.363Z - info: [ArdublocklySrv] Process exited with code null
+2021-07-09T07:48:41.316Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-09T07:48:41.320Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-09T07:48:41.320Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-09T07:48:41.457Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-09T07:48:42.888Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Settings file Serial Port is not currently available:
+	COM2
+Default Serial Port set:
+	COM1
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM1
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockly_test-master\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:48:47.807Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	D:\git\blockoli_v1\blockoli_v1
+
+Launching the HTTP service...
+
+Serial Port set to:
+	COM1
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:49:48.462Z - info: [ArdublocklySrv] 
+Arduino Board set to:
+	Uno
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:51:11.851Z - info: [ArdublocklySrv] 
+Serial Port set to:
+	COM1
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:51:29.374Z - info: [ArdublocklySrv] 
+Serial Port set to:
+	COM1
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:51:35.124Z - info: [ArdublocklySrv] 
+Serial Port set to:
+	COM24
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T07:52:18.995Z - info: [ArdublocklySrv] 
+Sketch directory set to:
+	D:\git\blockoli_v1\blockoli_v1
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T08:06:09.518Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM24 --board arduino:avr:uno D:\git\blockoli_v1\blockoli_v1\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Sketch uses 972 bytes (3%) of program storage space. Maximum is 32256 bytes.
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+
+Arduino Error output:
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Uploading...
+
+Arduino Exit code: 0
+
+Compiler directory set to:
+	D:\git\blockoli_v1\Arduino\arduino.exe
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T08:08:57.821Z - info: [ServerMgr] Server stopped.
+2021-07-09T08:28:57.125Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-07-09T08:28:57.130Z - info: [ArdublocklyElec] Ardublockly root dir: D:\git\blockoli_v1\blockoli_v1
+2021-07-09T08:28:57.130Z - info: [ArdublocklyElec] OS detected: win32
+2021-07-09T08:28:57.275Z - info: [ServerMgr] Command: D:\git\blockoli_v1\blockoli_v1\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-07-09T08:28:58.788Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: D:\git\blockoli_v1\blockoli_v1
+Selected server root: D:\git\blockoli_v1\blockoli_v1
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: D:\git\blockoli_v1\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM24
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: D:\git\blockoli_v1\blockoli_v1
+	Load IDE option: upload
+
+Settings file saved to:
+	D:\git\blockoli_v1\blockoli_v1\ServerCompilerSettings.ini
+
+2021-07-09T08:30:30.280Z - info: [ServerMgr] Server stopped.
+2021-07-09T08:30:30.301Z - info: [ArdublocklySrv] Process exited with code null

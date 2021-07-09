@@ -1,7 +1,7 @@
 var Ardublockly = Ardublockly || {};
 Ardublockly.LOCALISED_TEXT = {
   translationLanguage: "한국어",
-  title: "아두블록클리",
+  title: "BLOCKOLI",
   blocks: "블록",
   /* Menu */
   open: "파일 열기",
@@ -101,5 +101,8 @@ Ardublockly.LOCALISED_TEXT = {
   catlcd: "LCD 모듈",
   cat7segment: "7세그먼트 모듈",
   catAirPurifier:"공기청정기 키트",
-  catFineDust: "미세먼지센서"
+  catFineDust: "미세먼지센서",
+  catBroccoli: "브로콜리단계",
+  catCrocodile: "악어룰렛",
+  catSmartTrashcan: "스마트쓰레기통"
 };

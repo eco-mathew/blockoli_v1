@@ -101,5 +101,8 @@ Ardublockly.LOCALISED_TEXT = {
   catlcd: "LCD I2C display module",
   cat7segment: "7segment display",
   catAirPurifier: "AirPurifier Kit",
-  catFineDust: "FineDust"
+  catFineDust: "FineDust",
+  catBroccoli: "BroccoliStage",
+  catCrocodile: "Crocodile_kit",
+  catSmartTrashcan: "SmartTrashcan"
 };

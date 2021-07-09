@@ -57,7 +57,7 @@ def find_ardublockly_dir(search_path):
     while path_to_navigate:
         # Check if file ardublockly/index.html exists within current path
         if os.path.isfile(
-                os.path.join(path_to_navigate, 'ardublockly', 'index.html')):
+                os.path.join(path_to_navigate, 'blockoli_v1', 'index.html')):
             # Found the right folder
             return path_to_navigate
         path_to_navigate = os.path.dirname(path_to_navigate)

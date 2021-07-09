@@ -1,2 +1,2 @@
 @echo off
-start arduexec\ardublockly.exe
+start .\arduexec\server\start.exe

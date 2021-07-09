@@ -12,6 +12,7 @@ var Ardublockly = Ardublockly || {};
 Ardublockly.TOOLBOX_XML =
 '<xml>' +
 '  <sep></sep>' +
+'  <category id="catBlocklyBasic" name="BlocklyBasic">' +
 '  <category id="catLogic" name="Logic">' +
 '    <block type="controls_if"></block>' +
 '    <block type="logic_compare"></block>' +
@@ -228,6 +229,7 @@ Ardublockly.TOOLBOX_XML =
 '    <block type="spi_transfer"></block>' +
 '    <block type="spi_transfer_return"></block>' +
 '  </category>'+
+'  </category>'+
 '  <sep></sep>'+
 /*'  <category id="catSmartCity" name="smartcity">' +
 '     <category id="catLED" name="LED">' +
@@ -331,13 +333,10 @@ Ardublockly.TOOLBOX_XML =
 '  <sep></sep>'+*/
 '  <category id="catBroccoli" name="BroccoliStage">' +
 '      <category id="catCrocodile" name="Crocodile_kit">' +
-'       <block type="io_digitalwrite">' +
-'        <value name="STATE">' +
-'          <block type="io_highlow"></block>' +
-'        </value>' +
-'       </block>' +
-'       <block type="io_digitalread"></block>' +
-'       <block type="io_highlow"></block>' +
+'       <block type="arduino_functions"></block>' +
+'       <block type="controls_if"></block>' +
+'       <block type="logic_compare"></block>' +
+'       <block type="math_number"></block>' +
 '       <block type="math_random_int">' +
 '        <value name="FROM">' +
 '          <block type="math_number">' +
@@ -350,6 +349,23 @@ Ardublockly.TOOLBOX_XML =
 '          </block>' +
 '        </value>' +
 '       </block>' +
+'       <block type="variables_get"></block>' +
+'       <block type="variables_set"></block>' +
+'       <block type="procedures_defnoreturn"></block>' +
+'       <block type="io_digitalwrite">' +
+'        <value name="STATE">' +
+'          <block type="io_highlow"></block>' +
+'        </value>' +
+'       </block>' +
+'       <block type="io_digitalread"></block>' +
+'       <block type="io_highlow"></block>' +
+'       <block type="time_delay">' +
+'         <value name="DELAY_TIME_MILI">' +
+'           <block type="math_number">' +
+'             <field name="NUM">1000</field>' +
+'           </block>' +
+'         </value>' +
+'       </block>' +
 '       <block type="servo_write">' +
 '        <value name="SERVO_ANGLE">' +
 '          <block type="math_number">' +
@@ -360,6 +376,19 @@ Ardublockly.TOOLBOX_XML =
 '       <block type="servo_read"></block>' +
 '      </category>' +
 '      <category id="catSmartTrashcan" name="SmartTrashcan">' +
+'        <block type="arduino_functions"></block>' +
+'        <block type="controls_if"></block>' +
+'        <block type="logic_compare"></block>' +
+'        <block type="math_number"></block>' +
+'        <block type="variables_get"></block>' +
+'        <block type="variables_set"></block>' +
+'        <block type="time_delay">' +
+'          <value name="DELAY_TIME_MILI">' +
+'            <block type="math_number">' +
+'              <field name="NUM">1000</field>' +
+'            </block>' +
+'          </value>' +
+'        </block>' +
 '        <block type="ultra_sonic"></block>'+
 '        <block type="ultra_output"></block>'+
 '        <block type="servo_write">' +

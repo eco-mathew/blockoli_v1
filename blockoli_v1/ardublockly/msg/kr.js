@@ -82,6 +82,7 @@ Ardublockly.LOCALISED_TEXT = {
   arduinoSourceCode: "아두이노 소스 코드",
   blocksXml: "블록 XML",
   /* Toolbox Categories*/
+  catBlocklyBasic: "기본 블록",
   catLogic: "논리",
   catLoops: "반복",
   catMath: "수학",

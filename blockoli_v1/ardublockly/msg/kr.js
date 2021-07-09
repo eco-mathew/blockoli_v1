@@ -1,7 +1,7 @@
 var Ardublockly = Ardublockly || {};
 Ardublockly.LOCALISED_TEXT = {
   translationLanguage: "한국어",
-  title: "BLOCKOLI",
+  title: "BLOCKOLI CODING",
   blocks: "블록",
   /* Menu */
   open: "파일 열기",

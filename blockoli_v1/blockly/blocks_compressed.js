@@ -1335,10 +1335,10 @@ Blockly.Blocks.math_random_float = {
   }
 };
 Blockly.Blocks.procedures = {};
-Blockly.Blocks.procedures.HUE = 290;
+Blockly.Blocks.procedures.HUE = 240;
 Blockly.Blocks.procedures_defnoreturn = {
   init: function() {
-    this.setColour("#33cc00");
+    this.setColour("#75cc58");
     var a = new Blockly.FieldTextInput(Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE, Blockly.Procedures.rename);
     a.setSpellcheck(!1);
     this.appendDummyInput().appendField(Blockly.Msg.PROCEDURES_DEFNORETURN_TITLE).appendField(a, "NAME").appendField("", "PARAMS");
@@ -1483,7 +1483,7 @@ Blockly.Blocks.procedures_defreturn = {
     this.appendDummyInput().appendField(Blockly.Msg.PROCEDURES_DEFRETURN_TITLE).appendField(a, "NAME").appendField("", "PARAMS");
     this.appendValueInput("RETURN").setAlign(Blockly.ALIGN_RIGHT).appendField(Blockly.Msg.PROCEDURES_DEFRETURN_RETURN);
     Blockly.Msg.PROCEDURES_DEFRETURN_COMMENT && this.setCommentText(Blockly.Msg.PROCEDURES_DEFRETURN_COMMENT);
-    this.setColour("#33cc00");
+    this.setColour("#75cc58");
     this.setTooltip(Blockly.Msg.PROCEDURES_DEFRETURN_TOOLTIP);
     this.setHelpUrl(Blockly.Msg.PROCEDURES_DEFRETURN_HELPURL);
     this.arguments_ = [];
@@ -1521,7 +1521,7 @@ Blockly.Blocks.procedures_mutatorcontainer = {
     this.appendDummyInput().appendField(Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE);
     this.appendStatementInput("STACK");
     this.appendDummyInput("STATEMENT_INPUT").appendField(Blockly.Msg.PROCEDURES_ALLOW_STATEMENTS).appendField(new Blockly.FieldCheckbox("TRUE"), "STATEMENTS");
-    this.setColour("##33cc00");
+    this.setColour("#75cc58");
     this.setTooltip(Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TOOLTIP);
     this.contextMenu = !1
   }
@@ -1531,7 +1531,7 @@ Blockly.Blocks.procedures_mutatorarg = {
     this.appendDummyInput().appendField(Blockly.Msg.PROCEDURES_MUTATORARG_TITLE).appendField(new Blockly.FieldTextInput("x", this.validator_), "NAME");
     this.setPreviousStatement(!0);
     this.setNextStatement(!0);
-    this.setColour("#33cc00");
+    this.setColour("#75cc58");
     this.setTooltip(Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP);
     this.contextMenu = !1
   },
@@ -1544,7 +1544,7 @@ Blockly.Blocks.procedures_callnoreturn = {
     this.appendDummyInput("TOPROW").appendField(this.id, "NAME");
     this.setPreviousStatement(!0);
     this.setNextStatement(!0);
-    this.setColour("#33cc00");
+    this.setColour("#75cc58");
     this.setHelpUrl(Blockly.Msg.PROCEDURES_CALLNORETURN_HELPURL);
     this.arguments_ = [];
     this.quarkConnections_ = {};
@@ -1627,7 +1627,7 @@ Blockly.Blocks.procedures_callreturn = {
   init: function() {
     this.appendDummyInput("TOPROW").appendField("", "NAME");
     this.setOutput(!0);
-    this.setColour("#33cc00");
+    this.setColour("#75cc58");
     this.setHelpUrl(Blockly.Msg.PROCEDURES_CALLRETURN_HELPURL);
     this.arguments_ = [];
     this.quarkConnections_ = {};
@@ -1649,7 +1649,7 @@ Blockly.Blocks.procedures_ifreturn = {
     this.setInputsInline(!0);
     this.setPreviousStatement(!0);
     this.setNextStatement(!0);
-    this.setColour("#33cc00");
+    this.setColour("#75cc58");
     this.setTooltip(Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP);
     this.setHelpUrl(Blockly.Msg.PROCEDURES_IFRETURN_HELPURL);
     this.hasReturnValue_ = !0
@@ -2076,7 +2076,7 @@ Blockly.Blocks.variables.HUE = 330;
 Blockly.Blocks.variables_get = {
   init: function() {
     this.setHelpUrl(Blockly.Msg.VARIABLES_GET_HELPURL);
-    this.setColour("#ed0a3f");
+    this.setColour("#f7796f");
     this.appendDummyInput().appendField(new Blockly.FieldVariable(Blockly.Msg.VARIABLES_DEFAULT_NAME), "VAR");
     this.setOutput(!0);
     this.setTooltip(Blockly.Msg.VARIABLES_GET_TOOLTIP);
@@ -2106,7 +2106,7 @@ Blockly.Blocks.variables_get = {
 };
 Blockly.Blocks.variables_set = {
   init: function() {
-    this.setColour("#ed0a3f");
+    this.setColour("#f7796f");
     this.jsonInit({
       message0: Blockly.Msg.VARIABLES_SET,
       args0: [{
@@ -2367,7 +2367,7 @@ Blockly.Blocks.arduino_functions = {
     this.appendDummyInput().appendField(Blockly.Msg.ARD_FUN_RUN_LOOP);
     this.appendStatementInput("LOOP_FUNC");
     this.setInputsInline(!1);
-    this.setColour("#33cc00");
+    this.setColour("#75cc58");
     this.setTooltip(Blockly.Msg.ARD_FUN_RUN_TIP);
     this.setHelpUrl("https://arduino.cc/en/Reference/Loop");
     this.contextMenu = !1
@@ -2581,11 +2581,11 @@ Blockly.Blocks.stepper_step = {
   }
 };
 Blockly.Blocks.time = {};
-Blockly.Blocks.time.HUE = 140;
+Blockly.Blocks.time.HUE = 300;
 Blockly.Blocks.time_delay = {
   init: function() {
     this.setHelpUrl("http://arduino.cc/en/Reference/Delay");
-    this.setColour("#ef146d");
+    this.setColour("#cc7498");
     this.appendValueInput("DELAY_TIME_MILI").setCheck(Blockly.Types.NUMBER.checkList).appendField(Blockly.Msg.ARD_TIME_DELAY);
     this.appendDummyInput().appendField(Blockly.Msg.ARD_TIME_MS);
     this.setInputsInline(!0);
@@ -2597,7 +2597,7 @@ Blockly.Blocks.time_delay = {
 Blockly.Blocks.time_delaymicros = {
   init: function() {
     this.setHelpUrl("http://arduino.cc/en/Reference/DelayMicroseconds");
-    this.setColour("#ef146d");
+    this.setColour("#cc7498");
     this.appendValueInput("DELAY_TIME_MICRO").setCheck(Blockly.Types.NUMBER.checkList).appendField(Blockly.Msg.ARD_TIME_DELAY);
     this.appendDummyInput().appendField(Blockly.Msg.ARD_TIME_DELAY_MICROS);
     this.setInputsInline(!0);
@@ -2609,7 +2609,7 @@ Blockly.Blocks.time_delaymicros = {
 Blockly.Blocks.time_millis = {
   init: function() {
     this.setHelpUrl("http://arduino.cc/en/Reference/Millis");
-    this.setColour("#ef146d");
+    this.setColour("#cc7498");
     this.appendDummyInput().appendField(Blockly.Msg.ARD_TIME_MILLIS);
     this.setOutput(!0, Blockly.Types.LARGE_NUMBER.output);
     this.setTooltip(Blockly.Msg.ARD_TIME_MILLIS_TIP)
@@ -2621,7 +2621,7 @@ Blockly.Blocks.time_millis = {
 Blockly.Blocks.time_micros = {
   init: function() {
     this.setHelpUrl("http://arduino.cc/en/Reference/Micros");
-    this.setColour("#ef146d");
+    this.setColour("#cc7498");
     this.appendDummyInput().appendField(Blockly.Msg.ARD_TIME_MICROS);
     this.setOutput(!0, Blockly.Types.LARGE_NUMBER.output);
     this.setTooltip(Blockly.Msg.ARD_TIME_MICROS_TIP)
@@ -2633,7 +2633,7 @@ Blockly.Blocks.time_micros = {
 Blockly.Blocks.infinite_loop = {
   init: function() {
     this.setHelpUrl("");
-    this.setColour("#ef146d");
+    this.setColour("#cc7498");
     this.appendDummyInput().appendField(Blockly.Msg.ARD_TIME_INF);
     this.setInputsInline(!0);
     this.setPreviousStatement(!0);
@@ -2678,7 +2678,7 @@ Blockly.Blocks.variables.HUE = 330;
 Blockly.Blocks.variables_set_type = {
   init: function() {
     this.setHelpUrl("http://arduino.cc/en/Reference/HomePage");
-    this.setColour("#ed0a3f");
+    this.setColour("#f7796f");
     this.appendValueInput("VARIABLE_SETTYPE_INPUT");
     this.appendDummyInput().appendField(Blockly.Msg.ARD_VAR_AS).appendField(new Blockly.FieldDropdown(Blockly.Types.getValidTypeArray()), "VARIABLE_SETTYPE_TYPE");
     this.setInputsInline(!0);

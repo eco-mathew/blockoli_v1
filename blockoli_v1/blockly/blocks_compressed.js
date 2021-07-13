@@ -471,7 +471,7 @@ Blockly.Blocks.logic.HUE = 210;
 Blockly.Blocks.controls_if = {
   init: function() {
     this.setHelpUrl(Blockly.Msg.CONTROLS_IF_HELPURL);
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.appendValueInput("IF0").setCheck(Blockly.Types.BOOLEAN.checkList).appendField(Blockly.Msg.CONTROLS_IF_MSG_IF);
     this.appendStatementInput("DO0").appendField(Blockly.Msg.CONTROLS_IF_MSG_THEN);
     this.setPreviousStatement(!0);
@@ -569,7 +569,7 @@ Blockly.Blocks.controls_if = {
 };
 Blockly.Blocks.controls_if_if = {
   init: function() {
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.appendDummyInput().appendField(Blockly.Msg.CONTROLS_IF_IF_TITLE_IF);
     this.setNextStatement(!0);
     this.setTooltip(Blockly.Msg.CONTROLS_IF_IF_TOOLTIP);
@@ -578,7 +578,7 @@ Blockly.Blocks.controls_if_if = {
 };
 Blockly.Blocks.controls_if_elseif = {
   init: function() {
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.appendDummyInput().appendField(Blockly.Msg.CONTROLS_IF_ELSEIF_TITLE_ELSEIF);
     this.setPreviousStatement(!0);
     this.setNextStatement(!0);
@@ -588,7 +588,7 @@ Blockly.Blocks.controls_if_elseif = {
 };
 Blockly.Blocks.controls_if_else = {
   init: function() {
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.appendDummyInput().appendField(Blockly.Msg.CONTROLS_IF_ELSE_TITLE_ELSE);
     this.setPreviousStatement(!0);
     this.setTooltip(Blockly.Msg.CONTROLS_IF_ELSE_TOOLTIP);
@@ -613,7 +613,7 @@ Blockly.Blocks.logic_compare = {
       ["\u2265", "GTE"]
     ];
     this.setHelpUrl(Blockly.Msg.LOGIC_COMPARE_HELPURL);
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.setOutput(!0, Blockly.Types.BOOLEAN.output);
     this.appendValueInput("A");
     this.appendValueInput("B").appendField(new Blockly.FieldDropdown(a), "OP");
@@ -658,7 +658,7 @@ Blockly.Blocks.logic_operation = {
       [Blockly.Msg.LOGIC_OPERATION_OR, "OR"]
     ];
     this.setHelpUrl(Blockly.Msg.LOGIC_OPERATION_HELPURL);
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.setOutput(!0, Blockly.Types.BOOLEAN.output);
     this.appendValueInput("A").setCheck(Blockly.Types.BOOLEAN.checkList);
     this.appendValueInput("B").setCheck(Blockly.Types.BOOLEAN.checkList).appendField(new Blockly.FieldDropdown(a), "OP");
@@ -679,7 +679,7 @@ Blockly.Blocks.logic_operation = {
 };
 Blockly.Blocks.logic_negate = {
   init: function() {
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.jsonInit({
       message0: Blockly.Msg.LOGIC_NEGATE_TITLE,
       args0: [{
@@ -698,7 +698,7 @@ Blockly.Blocks.logic_negate = {
 };
 Blockly.Blocks.logic_boolean = {
   init: function() {
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.jsonInit({
       message0: "%1",
       args0: [{
@@ -720,7 +720,7 @@ Blockly.Blocks.logic_boolean = {
 };
 Blockly.Blocks.logic_null = {
   init: function() {
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.jsonInit({
       message0: Blockly.Msg.LOGIC_NULL,
       output: Blockly.Types.NULL.output,
@@ -734,7 +734,7 @@ Blockly.Blocks.logic_null = {
 };
 Blockly.Blocks.logic_ternary = {
   init: function() {
-    this.setColour("#005bf6");
+    this.setColour("#5795ff");
     this.setHelpUrl(Blockly.Msg.LOGIC_TERNARY_HELPURL);
     this.appendValueInput("IF").setCheck(Blockly.Types.BOOLEAN.checkList).appendField(Blockly.Msg.LOGIC_TERNARY_CONDITION);
     this.appendValueInput("THEN").appendField(Blockly.Msg.LOGIC_TERNARY_IF_TRUE);
@@ -2170,7 +2170,7 @@ Blockly.Blocks.io_builtin_led = {
   init: function() {
     this.setHelpUrl("http://arduino.cc/en/Reference/DigitalWrite");
     this.setColour("#8f47b3");
-    this.appendValueInput("STATE").appendField(Blockly.Msg.ARD_BUILTIN_LED).appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.builtinLed), "BUILT_IN_LED").appendField("to").setCheck(Blockly.Types.BOOLEAN.checkList);
+    this.appendValueInput("STATE").appendField(Blockly.Msg.ARD_BUILTIN_LED).appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.builtinLed), "BUILT_IN_LED").appendField(Blockly.Msg.ARD_BUILTIN_LED_TO).setCheck(Blockly.Types.BOOLEAN.checkList);
     this.setInputsInline(!1);
     this.setPreviousStatement(!0, null);
     this.setNextStatement(!0, null);

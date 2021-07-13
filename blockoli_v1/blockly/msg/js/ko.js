@@ -13,6 +13,7 @@ Blockly.Msg.ARD_ANALOGREAD_TIP = "0~1024 값을 반환";
 Blockly.Msg.ARD_ANALOGWRITE = "아날로그 값을 입력할 핀 번호";
 Blockly.Msg.ARD_ANALOGWRITE_TIP = "특정 pwm 핀에 0~255 범위의 아날로그 값을 입력";
 Blockly.Msg.ARD_BUILTIN_LED = "내장 LED 설정";
+Blockly.Msg.ARD_BUILTIN_LED_TO = "를";
 Blockly.Msg.ARD_BUILTIN_LED_TIP = "아두이노 내장 LED를 ON/OFF 할 수 있음";
 Blockly.Msg.ARD_COMPONENT_WARN1 = "%2와 같은 이름의 %1 설정 블록은 반드시 이 블록을 사용해야 합니다!";
 Blockly.Msg.ARD_DEFINE = "정의";

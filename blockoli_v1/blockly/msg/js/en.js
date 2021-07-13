@@ -13,6 +13,7 @@ Blockly.Msg.ARD_ANALOGWRITE = "set analog pin#";
 Blockly.Msg.ARD_ANALOGWRITE_TIP = "Write analog value between 0 and 255 to a specific PWM Port";
 Blockly.Msg.ARD_BUILTIN_LED = "set built-in LED";
 Blockly.Msg.ARD_BUILTIN_LED_TIP = "Light on or off for the built-in LED of the Arduino";
+Blockly.Msg.ARD_BUILTIN_LED_TO = "to";
 Blockly.Msg.ARD_COMPONENT_WARN1 = "A %1 configuration block with the same %2 name must be added to use this block!";
 Blockly.Msg.ARD_DEFINE = "Define";
 Blockly.Msg.ARD_DIGITALREAD = "read digital pin#";

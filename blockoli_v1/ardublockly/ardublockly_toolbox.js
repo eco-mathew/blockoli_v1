@@ -231,7 +231,78 @@ Ardublockly.TOOLBOX_XML =
 '  </category>'+
 '  </category>'+
 '  <sep></sep>'+
-/*'  <category id="catSmartCity" name="smartcity">' +
+'  <category id="catBroccoli" name="BroccoliStage">' +
+'      <category id="catCrocodile" name="Crocodile_kit">' +
+'       <block type="arduino_functions"></block>' +
+'       <block type="controls_if"></block>' +
+'       <block type="logic_compare"></block>' +
+'       <block type="math_number"></block>' +
+'       <block type="math_random_int">' +
+'        <value name="FROM">' +
+'          <block type="math_number">' +
+'            <field name="NUM">1</field>' +
+'          </block>' +
+'        </value>' +
+'        <value name="TO">' +
+'          <block type="math_number">' +
+'            <field name="NUM">100</field>' +
+'          </block>' +
+'        </value>' +
+'       </block>' +
+'       <block type="variables_get"></block>' +
+'       <block type="variables_set"></block>' +
+'       <block type="procedures_defnoreturn"></block>' +
+'       <block type="io_digitalwrite">' +
+'        <value name="STATE">' +
+'          <block type="io_highlow"></block>' +
+'        </value>' +
+'       </block>' +
+'       <block type="io_digitalread"></block>' +
+'       <block type="io_highlow"></block>' +
+'       <block type="time_delay">' +
+'         <value name="DELAY_TIME_MILI">' +
+'           <block type="math_number">' +
+'             <field name="NUM">1000</field>' +
+'           </block>' +
+'         </value>' +
+'       </block>' +
+'       <block type="servo_write">' +
+'        <value name="SERVO_ANGLE">' +
+'          <block type="math_number">' +
+'            <field name="NUM">90</field>' +
+'          </block>' +
+'        </value>' +
+'       </block>' +
+'       <block type="servo_read"></block>' +
+'      </category>' +
+'      <category id="catSmartTrashcan" name="SmartTrashcan">' +
+'        <block type="arduino_functions"></block>' +
+'        <block type="controls_if"></block>' +
+'        <block type="logic_compare"></block>' +
+'        <block type="math_number"></block>' +
+'        <block type="variables_get"></block>' +
+'        <block type="variables_set"></block>' +
+'        <block type="time_delay">' +
+'          <value name="DELAY_TIME_MILI">' +
+'            <block type="math_number">' +
+'              <field name="NUM">1000</field>' +
+'            </block>' +
+'          </value>' +
+'        </block>' +
+'        <block type="ultra_sonic"></block>'+
+'        <block type="ultra_output"></block>'+
+'        <block type="servo_write">' +
+'         <value name="SERVO_ANGLE">' +
+'           <block type="math_number">' +
+'             <field name="NUM">90</field>' +
+'           </block>' +
+'         </value>' +
+'        </block>' +
+'        <block type="servo_read"></block>' +
+'      </category>' +
+'  </category>' +
+'  <sep></sep>' +
+'  <category id="catSmartCity" name="smartcity">' +
 '     <category id="catLED" name="LED">' +
 '        <block type="3_led"></block>'+
 '      </category>'+
@@ -306,9 +377,8 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="setbrightness"></block>'+
 '        <block type="showNumberDec"></block>'+
 '     </category>'+
-'  </category>'+
-'  <sep></sep>'+
-'  <category id="catAirPurifier" name="AirPurifier">' +
+/*'     <sep></sep>'
+'     <category id="catAirPurifier" name="AirPurifier">' +
 '      <category id="catlcd" name="lcd">' +
 '        <block type="lcd"></block>'+
 '        <block type="lcd_text"></block>'+
@@ -331,75 +401,5 @@ Ardublockly.TOOLBOX_XML =
 '      </category>' +
 '  </category>'+
 '  <sep></sep>'+*/
-'  <category id="catBroccoli" name="BroccoliStage">' +
-'      <category id="catCrocodile" name="Crocodile_kit">' +
-'       <block type="arduino_functions"></block>' +
-'       <block type="controls_if"></block>' +
-'       <block type="logic_compare"></block>' +
-'       <block type="math_number"></block>' +
-'       <block type="math_random_int">' +
-'        <value name="FROM">' +
-'          <block type="math_number">' +
-'            <field name="NUM">1</field>' +
-'          </block>' +
-'        </value>' +
-'        <value name="TO">' +
-'          <block type="math_number">' +
-'            <field name="NUM">100</field>' +
-'          </block>' +
-'        </value>' +
-'       </block>' +
-'       <block type="variables_get"></block>' +
-'       <block type="variables_set"></block>' +
-'       <block type="procedures_defnoreturn"></block>' +
-'       <block type="io_digitalwrite">' +
-'        <value name="STATE">' +
-'          <block type="io_highlow"></block>' +
-'        </value>' +
-'       </block>' +
-'       <block type="io_digitalread"></block>' +
-'       <block type="io_highlow"></block>' +
-'       <block type="time_delay">' +
-'         <value name="DELAY_TIME_MILI">' +
-'           <block type="math_number">' +
-'             <field name="NUM">1000</field>' +
-'           </block>' +
-'         </value>' +
-'       </block>' +
-'       <block type="servo_write">' +
-'        <value name="SERVO_ANGLE">' +
-'          <block type="math_number">' +
-'            <field name="NUM">90</field>' +
-'          </block>' +
-'        </value>' +
-'       </block>' +
-'       <block type="servo_read"></block>' +
-'      </category>' +
-'      <category id="catSmartTrashcan" name="SmartTrashcan">' +
-'        <block type="arduino_functions"></block>' +
-'        <block type="controls_if"></block>' +
-'        <block type="logic_compare"></block>' +
-'        <block type="math_number"></block>' +
-'        <block type="variables_get"></block>' +
-'        <block type="variables_set"></block>' +
-'        <block type="time_delay">' +
-'          <value name="DELAY_TIME_MILI">' +
-'            <block type="math_number">' +
-'              <field name="NUM">1000</field>' +
-'            </block>' +
-'          </value>' +
-'        </block>' +
-'        <block type="ultra_sonic"></block>'+
-'        <block type="ultra_output"></block>'+
-'        <block type="servo_write">' +
-'         <value name="SERVO_ANGLE">' +
-'           <block type="math_number">' +
-'             <field name="NUM">90</field>' +
-'           </block>' +
-'         </value>' +
-'        </block>' +
-'        <block type="servo_read"></block>' +
-'      </category>' +
-'  </category>' +
-'  <sep></sep>' +
+'  </category>'+
 '</xml>';

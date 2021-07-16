@@ -15,8 +15,6 @@
  goog.require('Blockly.Blocks');
  goog.require('Blockly.Types');
 
- Blockly.Blocks.time.HUE = 120;
-
  Blockly.Blocks['finedust'] = {
    init: function() {
      this.appendDummyInput();
@@ -29,7 +27,7 @@
      this.setInputsInline(true);
      this.setPreviousStatement(true, null);
      this.setNextStatement(true, null);
-     this.setColour(Blockly.Blocks.time.HUE);
+     this.setColour(120);
      this.setTooltip("미세먼지센서 GP2Y1010AU0F 블록입니다. 미세먼지 값을 측정하는 함수를 정의합니다.");
      this.setHelpUrl("");
    },
@@ -42,10 +40,10 @@
 };
 Blockly.Blocks['finedust_output'] = {
   init: function() {
-    this.appendDummyInput().
-         appendField("미세먼지 측정 값");
+    this.appendDummyInput()
+        .appendField("미세먼지 측정 값");
     this.setOutput(true, Blockly.Types.LARGE_NUMBER.output);
-    this.setColour(Blockly.Blocks.time.HUE);
+    this.setColour(120);
     this.setTooltip("측정한 미세먼지 값을 출력합니다.");
   },
   getBlockType: function() {

@@ -105,5 +105,8 @@ Ardublockly.LOCALISED_TEXT = {
   catFineDust: "FineDust",
   catBroccoli: "BroccoliStage",
   catCrocodile: "Crocodile_kit",
-  catSmartTrashcan: "SmartTrashcan"
+  catSmartTrashcan: "SmartTrashcan",
+  catBPLABkit: "BPLAB KIT",
+  catSmartFarm: "smartfarm Kit",
+  catSoilmoisture: "Soilmoist Sensor"
 };

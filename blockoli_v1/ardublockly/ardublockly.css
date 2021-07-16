@@ -15,7 +15,7 @@
 */
 @font-face {
   font-family: "Nanumsquare";
-  src: url("font/NanumSquare_ac_TTF/NanumSquareB.ttf") format("truetype");
+  src: url("./font/NanumSquare_ac_TTF/NanumSquareB.ttf") format("truetype");
 }
 
 
@@ -733,7 +733,7 @@ ul.side-nav li.side-menu-end {
 
 /* Blockly scrollbars */
 .blocklyScrollbarKnob {
-  fill: #00878F !important;
+  fill: #00a0ea !important;
   fill-opacity: 0.7 !important;
 }
 .blocklyScrollbarBackground {

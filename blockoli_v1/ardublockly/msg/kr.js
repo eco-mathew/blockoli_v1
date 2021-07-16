@@ -105,5 +105,8 @@ Ardublockly.LOCALISED_TEXT = {
   catFineDust: "미세먼지센서",
   catBroccoli: "브로콜리단계",
   catCrocodile: "악어룰렛",
-  catSmartTrashcan: "스마트쓰레기통"
+  catSmartTrashcan: "스마트쓰레기통",
+  catBPLABkit: "< 비피랩 키트 >",
+  catSmartFarm: "스마트팜 키트",
+  catSoilmoisture: "토양습도센서"
 };

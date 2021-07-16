@@ -33,7 +33,7 @@ Blockly.Blocks['ultra_sonic'] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(210);
-    this.setTooltip("초음파 센서 블럭입니다.");
+    this.setTooltip("초음파 센서 설정 블럭입니다.");
     this.setHelpUrl("");
     },
     /**
@@ -54,7 +54,7 @@ Blockly.Blocks['ultra_output'] = {
         .appendField("거리 값");
     this.setOutput(true, Blockly.Types.LARGE_NUMBER.output);
     this.setColour(210);
-    this.setTooltip("초음파 센서를 이용한 거리 값을 출력합니다.");
+    this.setTooltip("초음파 센서를 이용한 거리 값을 출력합니다. 변수에 저장해서 사용합니다.");
   },
   getBlockType: function() {
     return Blockly.Types.LARGE_NUMBER;

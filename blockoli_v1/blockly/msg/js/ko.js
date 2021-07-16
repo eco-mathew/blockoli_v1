@@ -7,10 +7,10 @@ goog.provide('Blockly.Msg.ko');
 goog.require('Blockly.Msg');
 
 Blockly.Msg.ADD_COMMENT = "메모 추가";
-Blockly.Msg.ARD_ANALOGREAD = "디지털 값을 읽을 핀 번호";
-Blockly.Msg.ARD_ANALOGREAD = "아날로그 값을 읽을 핀 번호";
+Blockly.Msg.ARD_ANALOGREAD = "디지털 값 읽기 핀 번호";
+Blockly.Msg.ARD_ANALOGREAD = "아날로그 값 읽기 핀 번호";
 Blockly.Msg.ARD_ANALOGREAD_TIP = "0~1024 값을 반환";
-Blockly.Msg.ARD_ANALOGWRITE = "아날로그 값을 입력할 핀 번호";
+Blockly.Msg.ARD_ANALOGWRITE = "아날로그 값 입력 핀 번호";
 Blockly.Msg.ARD_ANALOGWRITE_TIP = "특정 pwm 핀에 0~255 범위의 아날로그 값을 입력";
 Blockly.Msg.ARD_BUILTIN_LED = "내장 LED 설정";
 Blockly.Msg.ARD_BUILTIN_LED_TO = "를";

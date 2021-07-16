@@ -302,6 +302,8 @@ Ardublockly.TOOLBOX_XML =
 '      </category>' +
 '  </category>' +
 '  <sep></sep>' +
+'  <category id="catBPLABkit" name="BPLAB KIT"></category>' +
+'  <sep></sep>' +
 '  <category id="catSmartCity" name="smartcity">' +
 '     <category id="catLED" name="LED">' +
 '        <block type="3_led"></block>'+
@@ -377,9 +379,9 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="setbrightness"></block>'+
 '        <block type="showNumberDec"></block>'+
 '     </category>'+
-/*
-'     <sep></sep>'
-'     <category id="catAirPurifier" name="AirPurifier">' +
+'    </category>'+
+'    <sep></sep>' +
+'    <category id="catAirPurifier" name="AirPurifier">' +
 '      <category id="catlcd" name="lcd">' +
 '        <block type="lcd"></block>'+
 '        <block type="lcd_text"></block>'+
@@ -400,9 +402,9 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="dht_temp"></block>'+
 '        <block type="dht_humid"></block>'+
 '      </category>' +
-'      </category>'+
+'     </category>'+
 '     <sep></sep>'+
-'     <category id="catSmartFarm" name="Smartfarm">'
+'     <category id="catSmartFarm" name="Smartfarm">' +
 '      <category id="catlcd" name="lcd">' +
 '        <block type="lcd"></block>'+
 '        <block type="lcd_text"></block>'+
@@ -423,7 +425,9 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="dht_temp"></block>'+
 '        <block type="dht_humid"></block>'+
 '      </category>' +
-'      </category>'
-*/
-'  </category>'+
+'      <category id="catSoilmoisture" name="Soilmoisture">' +
+'        <block type="soilmoisture"></block>' +
+'        <block type="soilmoisture_output"></block>' +
+'      </category>' +
+'     </category>' +
 '</xml>';

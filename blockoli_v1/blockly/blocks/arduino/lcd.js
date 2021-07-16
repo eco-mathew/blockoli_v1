@@ -145,7 +145,7 @@ Blockly.Blocks['lcd_autoscroll'] = {
 Blockly.Blocks['lcd_write'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("아스키코드 값 출력")
+        .appendField("사용자문자 출력")
         .appendField(new Blockly.FieldTextInput(""), "content");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);

@@ -1,6 +1,6 @@
 'use strict';
 
-goog.provide('Blockly.Arduino.FineDust');
+goog.provide('Blockly.Arduino.finedust');
 
 goog.require('Blockly.Arduino');
 

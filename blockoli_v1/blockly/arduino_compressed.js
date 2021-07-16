@@ -1206,3 +1206,4 @@ Blockly.Arduino.dht = {};
 Blockly.Arduino.lcd = {};
 Blockly.Arduino.sevensegment = {};
 Blockly.Arduino.finedust = {};
+Blockly.Arduino.soilmoisture = {};

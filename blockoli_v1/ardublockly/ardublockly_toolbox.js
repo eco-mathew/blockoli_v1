@@ -356,7 +356,9 @@ Ardublockly.TOOLBOX_XML =
 '      </category>' +
 '      <category id="catillu" name="illu">' +
 '        <block type="illuminance_digital"></block>'+
+'        <block type="illuminance_digital_output"></block>'+
 '        <block type="illuminance_analog"></block>'+
+'        <block type="illuminance_analog_output"></block>'+
 '      </category>' +
 '      <category id="catdht" name="dht">' +
 '        <block type="dht"></block>'+
@@ -418,7 +420,9 @@ Ardublockly.TOOLBOX_XML =
 '      </category>' +
 '      <category id="catillu" name="illu">' +
 '        <block type="illuminance_digital"></block>'+
+'        <block type="illuminance_digital_output"></block>'+
 '        <block type="illuminance_analog"></block>'+
+'        <block type="illuminance_analog_output"></block>'+
 '      </category>' +
 '      <category id="catdht" name="dht">' +
 '        <block type="dht"></block>'+

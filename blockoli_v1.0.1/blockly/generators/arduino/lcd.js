@@ -22,7 +22,7 @@ Blockly.Arduino['lcd'] = function(block) { //lcd 변수 출력해주는 블럭
   Blockly.Arduino.addDeclaration('lcd', 'LiquidCrystal_I2C lcd('+ menu+', '+'16, 2);'); //LCD 선언
 
 
-  var setupCode = 'lcd.begin();\n'+ ' lcd.clear();\n';
+  var setupCode = 'lcd.begin();\n'+ '  lcd.clear();\n';
   Blockly.Arduino.addSetup('lcd', setupCode, true); //void setup()에 추가
 
 

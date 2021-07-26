@@ -38,7 +38,7 @@ Blockly.Arduino['soilmoisture'] = function(block) {
   '}'
   );
   // code in void loop()
-  var code;
+  var code = '';
 
   return code;
 };

@@ -58,7 +58,7 @@ Blockly.Arduino['ultra_sonic'] = function(block) {
   '\t' + 'return distance;'  + '\n' +
   '}'
   );
-  var code;
+  var code = '';
 
   return code;
 };

@@ -45,7 +45,7 @@ Blockly.Arduino['finedust'] = function(block) {
   '}'
   );
   // code in void loop()
-  var code;
+  var code = '';
 
   return code;
 };

@@ -18,8 +18,6 @@ goog.require('Blockly.Blocks');
 goog.require('Blockly.Types');
 
 /** Common HSV hue for all blocks in this category. */
-Blockly.Blocks.io.HUE = 250;
-
 Blockly.Blocks['illuminance_analog'] = {
   /**
    * Block for reading an analogue input.
@@ -37,7 +35,7 @@ Blockly.Blocks['illuminance_analog'] = {
     this.setTooltip(Blockly.Msg.ARD_ANALOGREAD_TIP);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
-    this.setColour("#ffc93c");
+    this.setColour("#ffad30");
     this.setTooltip("조도 센서 블럭입니다.");
     this.setHelpUrl("");
   },
@@ -65,7 +63,7 @@ Blockly.Blocks['illuminance_analog_output'] = {
         .appendField("조도센서 아날로그 값 출력")
     this.setOutput(true, Blockly.Types.LARGE_NUMBER.output);
     this.setInputsInline(true);
-    this.setColour("#ffc93c");
+    this.setColour("#ffad30");
     this.setTooltip("조도 센서에서 측정한 아날로그 값을 출력하는 블럭입니다.");
   },
   /** @return {!string} The type of return value for the block, an integer. */
@@ -91,7 +89,7 @@ Blockly.Blocks['illuminance_digital'] = {
     this.setTooltip(Blockly.Msg.ARD_ANALOGREAD_TIP);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
-    this.setColour("#ffc93c");
+    this.setColour("#ffad30");
     this.setTooltip("조도 센서 블럭입니다.");
     this.setHelpUrl("");
   },
@@ -120,7 +118,7 @@ Blockly.Blocks['illuminance_digital_output'] = {
         .appendField("조도센서 디지털 값 출력")
     this.setOutput(true, Blockly.Types.BOOLEAN.output);
     this.setInputsInline(true);
-    this.setColour("#ffc93c");
+    this.setColour("#ffad30");
     this.setTooltip("조도 센서에서 측정한 디지털 값을 출력하는 블럭입니다.");
   },
   /** @return {!string} The type of return value for the block, an integer. */

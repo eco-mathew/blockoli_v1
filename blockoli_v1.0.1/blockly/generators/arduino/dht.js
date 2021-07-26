@@ -16,7 +16,10 @@ Blockly.Arduino['dht'] = function(block) {
   Blockly.Arduino.addDeclaration('dht_'+ dhtpin, '#define DHTPIN'+ dhtpin+' '+dhtpin +'\n' + '#define DHTTYPE DHT11' +'\n' +
   'DHT dht(DHTPIN'+ dhtpin +' '+', DHTTYPE);');
 
-  var code;
+  var setupCode = 'dht.begin();';
+  Blockly.Arduino.addSetup('dht', setupCode, true);
+
+  var code = '';
 
   return code;
 };

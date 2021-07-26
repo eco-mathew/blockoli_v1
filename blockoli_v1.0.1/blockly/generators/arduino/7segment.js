@@ -22,7 +22,7 @@ Blockly.Arduino['sevensegment'] = function(block) {
   var setupCode = 'dsp.setBrightness(' + bright+ ');\n';
   Blockly.Arduino.addSetup('sevensegment_' , setupCode, true);
 
-  var code;
+  var code = '';
 
   return code;
 };

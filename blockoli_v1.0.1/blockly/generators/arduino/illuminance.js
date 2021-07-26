@@ -25,7 +25,7 @@ Blockly.Arduino['illuminance_analog'] = function(block) {
   var pinSetupCode = 'pinMode(' + pin + ', INPUT);';
   Blockly.Arduino.addSetup('io_' + pin, pinSetupCode, true);
 
-  var code;
+  var code = '';
   return code;
 };
 
@@ -47,7 +47,7 @@ Blockly.Arduino['illuminance_digital'] = function(block) {
   var pinSetupCode = 'pinMode(' + pin + ', INPUT);';
   Blockly.Arduino.addSetup('io_' + pin, pinSetupCode, true);
 
-  var code;
+  var code = '';
   return code;
 };
 

@@ -29,17 +29,17 @@ Blockly.Blocks['3_led'] = {
     this.appendDummyInput()
         .appendField("  빨간색 ")
         .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.pwmPins), 'Red_PIN')
-        .appendField("   밝기(0~255)   ")
+        .appendField("   밝기(0~255) ")
         .appendField(new Blockly.FieldNumber(0, 0, 255), "Red_Value");
     this.appendDummyInput()
         .appendField("  초록색 ")
         .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.pwmPins), 'Green_PIN')
-        .appendField("   밝기(0~255)   ")
+        .appendField("   밝기(0~255) ")
         .appendField(new Blockly.FieldNumber(0, 0, 255), "Green_Value");
     this.appendDummyInput()
         .appendField("  파란색 ")
         .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.pwmPins), 'Blue_PIN')
-        .appendField("   밝기(0~255)   ")
+        .appendField("   밝기(0~255) ")
         .appendField(new Blockly.FieldNumber(0, 0, 255), "Blue_Value");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -56,4 +56,43 @@ Blockly.Blocks['3_led'] = {
         this, 'Blue_PIN', 'pwmPins');
 }
 
+};
+
+Blockly.Blocks['3_led_digital'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField(" 3색 LED");
+    this.setColour(230);
+    this.appendValueInput('RED_STATE')
+        .appendField(" 빨간색 핀")
+        .appendField(new Blockly.FieldDropdown(
+            Blockly.Arduino.Boards.selected.digitalPins), 'RED_DPIN')
+        .setCheck(Blockly.Types.BOOLEAN.checkList);
+    this.appendValueInput('GREEN_STATE')
+        .appendField(" 초록색 핀")
+        .appendField(new Blockly.FieldDropdown(
+            Blockly.Arduino.Boards.selected.digitalPins), 'GREEN_DPIN')
+        .setCheck(Blockly.Types.BOOLEAN.checkList);
+    this.appendValueInput('BLUE_STATE')
+        .appendField(" 파란색 핀")
+        .appendField(new Blockly.FieldDropdown(
+            Blockly.Arduino.Boards.selected.digitalPins), 'BLUE_DPIN')
+        .setCheck(Blockly.Types.BOOLEAN.checkList);
+    this.setInputsInline(false);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setTooltip("3색 LED 디지털 블록입니다. 원하는 LED 핀을 설정하고, HIGH 또는 LOW를 통해 LED를 ON/OFF 할 수 있습니다.");
+  },
+  /**
+   * Updates the content of the the pin related fields.
+   * @this Blockly.Block
+   */
+  updateFields: function() {
+    Blockly.Arduino.Boards.refreshBlockFieldDropdown(
+        this, 'RED_DPIN', 'digitalPins');
+    Blockly.Arduino.Boards.refreshBlockFieldDropdown(
+        this, 'GREEN_DPIN', 'digitalPins');
+    Blockly.Arduino.Boards.refreshBlockFieldDropdown(
+        this, 'BLUE_DPIN', 'digitalPins');
+  }
 };

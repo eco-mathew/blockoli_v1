@@ -1206,8 +1206,20 @@ Blockly.Arduino.variables_set_type = function(a) {
   return ["(" + Blockly.Arduino.getArduinoType_(Blockly.Types[a.getFieldValue("VARIABLE_SETTYPE_TYPE")]) + ")(" + b + ")", Blockly.Arduino.ORDER_ATOMIC]
 };
 Blockly.Arduino.dht = {};
+Blockly.Arduino.dht = function(a) {
+  var b = a.getFieldValue('dhtpin'),
+      c = 'dht' + b;
+  Blockly.Arduino.reservePin(a, b, Blockly.Arduino.PinTypes.dht, 'dhtpin');
+  Blockly.Arduino.addInclude('dht', '#include "DHT.h"');
+  Blockly.Arduino.addDeclaration('dht_' + b, '#define DHTPIN' + b + ' ' + b + '\n' + '#define DHTTYPE DHT11' + '\n' + 'DHT dht(DHTPIN' + b + ' ' + ', DHTTYPE);');
+  var d = 'dht.begin();';
+  Blockly.Arduino.addSetup('dht', d, !0);
+  return ""
+};
+Blockly.Arduino.trafficLED = {};
+Blockly.Arduino.LED = {};
 Blockly.Arduino.lcd = {};
 Blockly.Arduino.sevensegment = {};
 Blockly.Arduino.finedust = {};
 Blockly.Arduino.soilmoisture = {};
-Blcokly.Arduino.illuminance = {};
+Blcokly.Arduino.illu = {};

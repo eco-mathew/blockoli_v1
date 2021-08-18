@@ -31,12 +31,11 @@
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
-
 @echo off
-if not exist %UserProfile%\AppData\Local\Arduino15 (
-	mkdir %UserProfile%\AppData\Local\Arduino15
+if not exist %localappdata%\Arduino15 (
+	mkdir %localappdata%\Arduino15
 )
-COPY blockoli_v1.0.1\preferences.txt %UserProfile%\AppData\Local\Arduino15\*.*
+COPY blockoli_v1.0.1\preferences.txt %localappdata%\Arduino15\*.*
 
 if not exist %systemdrive%\WCH.CN (
 	start %cd%\Arduino\CH34x_Install_Windows_v3_4.EXE

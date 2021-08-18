@@ -1,0 +1,57 @@
+/**
+ * @license Licensed under the Apache License, Version 2.0 (the "License"):
+ *          http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+/**
+ * @fileoverview Block for the Arduino map functionality.
+ *     The Arduino built in functions syntax can be found at:
+ *     http://arduino.cc/en/Reference/HomePage
+ *
+ * TODO: This block can be improved to set the new range properly.
+ */
+'use strict';
+
+goog.provide('Blockly.Blocks.map');
+
+goog.require('Blockly.Blocks');
+goog.require('Blockly.Types');
+
+
+/** Common HSV hue for all blocks in this category. */
+Blockly.Blocks.map.HUE = 230;
+
+Blockly.Blocks['base_map'] = {
+  /**
+   * Block for creating a the map function.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.setColour("#00c3e9");
+    this.setHelpUrl('http://arduino.cc/en/Reference/map');
+    this.appendValueInput('NUM')
+        .appendField('숫자변환(MAP)')
+        .setCheck(Blockly.Types.NUMBER.checkList);
+    this.appendValueInput('INPUTNUM1')
+        .appendField('의 값을')
+        .setCheck(Blockly.Types.NUMBER.checkList);
+    this.appendValueInput('INPUTNUM2')
+        .appendField('~')
+        .setCheck(Blockly.Types.NUMBER.checkList);
+    this.appendValueInput('DMIN')
+        .appendField('에서')
+        .setCheck(Blockly.Types.NUMBER.checkList);
+    this.appendValueInput('DMAX')
+        .appendField('~')
+        .setCheck(Blockly.Types.NUMBER.checkList);
+    this.appendDummyInput()
+        .appendField('로 변환')
+    this.setInputsInline(true);
+    this.setOutput(true);
+    this.setTooltip(Blockly.Msg.ARD_MAP_TIP);
+  },
+  /** @return {string} The type of return value for the block, an integer. */
+  getBlockType: function() {
+    return Blockly.Types.NUMBER;
+  }
+};

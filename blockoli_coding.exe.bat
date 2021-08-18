@@ -1,7 +1,7 @@
 ::[Bat To Exe Converter]
 ::
 ::YAwzoRdxOk+EWAjk
-::fBw5plQjdCuDJF6N4H4yJBRXRwuONVSsV/tMprnH7eaIoUYSWOsAbt6VivrfHOIf5Ubvepok6X9CnfQFDxRWMBuoYW8=
+::fBw5plQjdCuDJF6N4H4yJBRXRwuONVSsV/tMprrH7eaIoUYSWOsAe4Df07qJHOIf5Ubvepok6X9CnfQFDxRWMBuoYW8=
 ::YAwzuBVtJxjWCl3EqQJgSA==
 ::ZR4luwNxJguZRRnk
 ::Yhs/ulQjdF+5
@@ -26,23 +26,15 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdCuDJF6N4H4yJBRXRwuONVSsV/tMprnH7eaIoUYSWOsAe4Df07qJbuUL7yU=
+::Zh4grVQjdCuDJF6N4H4yJBRXRwuONVSsV/tMprrH7eaIoUYSWOsAe4Df07qJbuUL7yU=
 ::YB416Ek+ZG8=
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
-
 @echo off
 if not exist %UserProfile%\AppData\Local\Arduino15 (
 	mkdir %UserProfile%\AppData\Local\Arduino15
 )
-COPY blockoli_v1.0.1\preferences.txt %UserProfile%\AppData\Local\Arduino15\*.*
+COPY blockoli_v1.0.2\preferences.txt %UserProfile%\AppData\Local\Arduino15\*.*
 
-if not exist %systemdrive%\WCH.CN (
-	start %cd%\Arduino\CH34x_Install_Windows_v3_4.EXE
-	timeout 15
-	start %cd%\blockoli_v1.0.1\arduexec\blockoli.exe
-
-) else (
-	start %cd%\blockoli_v1.0.1\arduexec\blockoli.exe
-)
+start %cd%\blockoli_coding\arduexec\blockoli.exe

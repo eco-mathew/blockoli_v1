@@ -32,9 +32,9 @@
 ::
 ::978f952a14a936cc963da21a135fa983
 @echo off
-if not exist %UserProfile%\AppData\Local\Arduino15 (
-	mkdir %UserProfile%\AppData\Local\Arduino15
+if not exist %LocalAppData%\Arduino15 (
+	mkdir %LocalAppData%\Arduino15
 )
-COPY blockoli_v1.0.2\preferences.txt %UserProfile%\AppData\Local\Arduino15\*.*
+COPY blockoli_coding\preferences.txt %LocalAppData%\Arduino15\*.*
 
 start %cd%\blockoli_coding\arduexec\blockoli.exe

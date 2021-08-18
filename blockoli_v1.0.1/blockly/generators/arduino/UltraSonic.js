@@ -30,11 +30,11 @@ Blockly.Arduino['ultra_sonic'] = function(block) {
   Blockly.Arduino.reservePin(
       block, Echo_Pin, Blockly.Arduino.PinTypes.INPUT, 'Digital Write');
 
-  Blockly.Arduino.addDeclaration('ultra_', '#define Trig ' + Trig_Pin + '\n' +
-  '#define Echo ' + Echo_Pin);
+  Blockly.Arduino.addDeclaration('ultra_' + Trig_Pin + Echo_Pin, '#define Trig' + Trig_Pin + ' ' + Trig_Pin + '\n' +
+  '#define Echo' + Echo_Pin + ' ' + Echo_Pin);
 
-  var pinSetupCode1 = 'pinMode(Trig, OUTPUT);';
-  var pinSetupCode2 = 'pinMode(Echo, INPUT);';
+  var pinSetupCode1 = 'pinMode(Trig' + Trig_Pin + ', OUTPUT);';
+  var pinSetupCode2 = 'pinMode(Echo' + Echo_Pin + ', INPUT);';
 
   Blockly.Arduino.addSetup('io_' + Trig_Pin, pinSetupCode1, false);
   Blockly.Arduino.addSetup('io_' + Echo_Pin, pinSetupCode2, false);
@@ -47,13 +47,13 @@ Blockly.Arduino['ultra_sonic'] = function(block) {
   //   float distance = pulseIn(5, HIGH) / 58.00;
   //   delay(10);
   //   return distance;
-  Blockly.Arduino.addFunction('Ultra_func', 'float getDistance(){' + '\n' +
-  '\t' + 'digitalWrite(Trig, LOW);' + '\n' +
+  Blockly.Arduino.addFunction('Ultra_func' + Trig_Pin + Echo_Pin, 'float getDistance' + Trig_Pin + Echo_Pin + '(){' + '\n' +
+  '\t' + 'digitalWrite(Trig' + Trig_Pin + ', LOW);' + '\n' +
   '\t' + 'delayMicroseconds(2);' + '\n'+
-  '\t' + 'digitalWrite(Trig, HIGH);' + '\n'+
+  '\t' + 'digitalWrite(Trig' + Trig_Pin + ', HIGH);' + '\n'+
   '\t' + 'delayMicroseconds(10);' + '\n'+
-  '\t' + 'digitalWrite(Trig, LOW);' + '\n'+
-  '\t' + 'float distance = pulseIn(Echo, HIGH)/58.00;' + '\n' +
+  '\t' + 'digitalWrite(Trig' + Trig_Pin + ', LOW);' + '\n'+
+  '\t' + 'float distance = pulseIn(Echo' + Echo_Pin + ', HIGH)/58.00;' + '\n' +
   '\t' + 'delay(10);' + '\n' +
   '\t' + 'return distance;'  + '\n' +
   '}'
@@ -64,7 +64,14 @@ Blockly.Arduino['ultra_sonic'] = function(block) {
 };
 
 Blockly.Arduino['ultra_output'] = function(block) {
-  var code = 'getDistance()';
+  var Trig_Pin = block.getFieldValue('Trig');
+  Blockly.Arduino.reservePin(
+      block, Trig_Pin, Blockly.Arduino.PinTypes.OUTPUT, 'Digital Write');
+  var Echo_Pin = block.getFieldValue('Echo');
+  Blockly.Arduino.reservePin(
+      block, Echo_Pin, Blockly.Arduino.PinTypes.INPUT, 'Digital Write');
+
+  var code = 'getDistance' + Trig_Pin + Echo_Pin + '()';
 
   return [code, Blockly.Arduino.ORDER_ATOMIC];
 };

@@ -52,11 +52,18 @@ Blockly.Blocks['ultra_output'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("거리 값");
-    this.setOutput(true, Blockly.Types.LARGE_NUMBER.output);
+    this.appendDummyInput()
+        .appendField("  Trig# ")
+        .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.digitalPins), 'Trig');
+    this.appendDummyInput()
+        .appendField("  Echo#")
+        .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.digitalPins), 'Echo');
+    this.setInputsInline(true);
+    this.setOutput(true, Blockly.Types.NUMBER.output);
     this.setColour(210);
     this.setTooltip("초음파 센서를 이용한 거리 값을 출력합니다. 변수에 저장해서 사용합니다.");
   },
   getBlockType: function() {
-    return Blockly.Types.LARGE_NUMBER;
+    return Blockly.Types.NUMBER;
   }
 };

@@ -63,17 +63,17 @@ Blockly.Blocks['3_led_digital'] = {
     this.appendDummyInput()
         .appendField(" 3색 LED");
     this.setColour(230);
-    this.appendValueInput('RED_STATE')
+    this.appendValueInput('TRED_STATE')
         .appendField(" 빨간색 핀")
         .appendField(new Blockly.FieldDropdown(
             Blockly.Arduino.Boards.selected.digitalPins), 'RED_DPIN')
         .setCheck(Blockly.Types.BOOLEAN.checkList);
-    this.appendValueInput('GREEN_STATE')
+    this.appendValueInput('TGREEN_STATE')
         .appendField(" 초록색 핀")
         .appendField(new Blockly.FieldDropdown(
             Blockly.Arduino.Boards.selected.digitalPins), 'GREEN_DPIN')
         .setCheck(Blockly.Types.BOOLEAN.checkList);
-    this.appendValueInput('BLUE_STATE')
+    this.appendValueInput('TBLUE_STATE')
         .appendField(" 파란색 핀")
         .appendField(new Blockly.FieldDropdown(
             Blockly.Arduino.Boards.selected.digitalPins), 'BLUE_DPIN')

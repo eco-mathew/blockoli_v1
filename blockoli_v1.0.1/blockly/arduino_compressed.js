@@ -1216,10 +1216,11 @@ Blockly.Arduino.dht = function(a) {
   Blockly.Arduino.addSetup('dht', d, !0);
   return ""
 };
-Blockly.Arduino.trafficLED = {};
-Blockly.Arduino.LED = {};
-Blockly.Arduino.lcd = {};
+
+//Blockly.Arduino.lcd = {};
 Blockly.Arduino.sevensegment = {};
 Blockly.Arduino.finedust = {};
 Blockly.Arduino.soilmoisture = {};
 Blcokly.Arduino.illu = {};
+Blockly.Arduino.trafficLED = {};
+Blockly.Arduino.LED = {};

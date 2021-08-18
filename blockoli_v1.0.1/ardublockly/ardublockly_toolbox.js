@@ -173,50 +173,6 @@ Ardublockly.TOOLBOX_XML =
 '    <block type="infinite_loop"></block>' +
 '  </category>' +
 '  <sep></sep>' +
-'  <category id="catAudio" name="Audio">' +
-'    <block type="io_tone">' +
-'      <field name="TONEPIN">0</field>' +
-'      <value name="FREQUENCY">' +
-'        <shadow type="math_number">' +
-'          <field name="NUM">220</field>' +
-'        </shadow>' +
-'      </value>' +
-'    </block>' +
-'    <block type="io_notone"></block>' +
-'  </category>' +
-'  <sep></sep>' +
-'  <category id="catMotors" name="Motors">' +
-'    <block type="servo_write">' +
-'      <value name="SERVO_ANGLE">' +
-'        <block type="math_number">' +
-'          <field name="NUM">90</field>' +
-'        </block>' +
-'      </value>' +
-'    </block>' +
-'    <block type="servo_read"></block>' +
-'    <block type="stepper_config">' +
-'      <field name="STEPPER_PIN1">1</field>' +
-'      <field name="STEPPER_PIN2">2</field>' +
-'      <value name="STEPPER_STEPS">' +
-'        <block type="math_number">' +
-'          <field name="NUM">100</field>' +
-'        </block>' +
-'      </value>' +
-'      <value name="STEPPER_SPEED">' +
-'        <block type="math_number">' +
-'          <field name="NUM">10</field>' +
-'        </block>' +
-'      </value>' +
-'    </block>' +
-'    <block type="stepper_step">' +
-'      <value name="STEPPER_STEPS">' +
-'        <block type="math_number">' +
-'          <field name="NUM">10</field>' +
-'        </block>' +
-'      </value>' +
-'    </block>' +
-'  </category>' +
-'  <sep></sep>' +
 '  <category id="catComms" name="Comms">' +
 '    <block type="serial_setup"></block>' +
 '    <block type="serial_print"></block>' +
@@ -251,7 +207,12 @@ Ardublockly.TOOLBOX_XML =
 '       </block>' +
 '       <block type="variables_get"></block>' +
 '       <block type="variables_set"></block>' +
-'       <block type="procedures_defnoreturn"></block>' +
+'       <block type="procedures_defnoreturn">' +
+'         <field name="NAME">함수 이름</field>' +
+'       </block>' +
+'       <block type="procedures_callnoreturn">' +
+'         <field name="NAME">함수 이름</field>' +
+'       </block>' +
 '       <block type="io_digitalwrite">' +
 '        <value name="STATE">' +
 '          <block type="io_highlow"></block>' +
@@ -305,9 +266,34 @@ Ardublockly.TOOLBOX_XML =
 '  <category id="catBPLABkit" name="BPLAB KIT"></category>' +
 '  <sep></sep>' +
 '  <category id="catSmartCity" name="smartcity">' +
-'     <category id="catLED" name="LED">' +
+'      <category id="catTrafficLED" name="trafficled">' +
+'        <block type="traffic_led">'+
+'          <value name="RED_STATE">' +
+'            <block type="io_highlow"></block>' +
+'          </value>' +
+'          <value name="YELLOW_STATE">' +
+'            <block type="io_highlow"></block>' +
+'          </value>' +
+'          <value name="GREEN_STATE">' +
+'            <block type="io_highlow"></block>' +
+'          </value>' +
+'        </block>' +
+'        <block type="traffic_led_analog"></block>' +
+'      </category>' +
+'      <category id="catLED" name="LED">' +
 '        <block type="3_led"></block>'+
-'      </category>'+
+'        <block type="3_led_digital">'+
+'          <value name="TRED_STATE">' +
+'            <block type="io_highlow"></block>' +
+'          </value>' +
+'          <value name="TGREEN_STATE">' +
+'            <block type="io_highlow"></block>' +
+'          </value>' +
+'          <value name="TBLUE_STATE">' +
+'            <block type="io_highlow"></block>' +
+'          </value>' +
+'        </block>' +
+'      </category>' +
 '      <category id="catUltra_sonic" name="Ultra_sonic">' +
 '        <block type="ultra_sonic"></block>'+
 '        <block type="ultra_output"></block>'+
@@ -354,19 +340,21 @@ Ardublockly.TOOLBOX_XML =
 '           </value>' +
 '       </block>' +
 '      </category>' +
-/*'      <category id="catillu" name="illu">' +
+'      <category id="catillu" name="illu">' +
 '        <block type="illuminance_analog"></block>'+
 '        <block type="illuminance_analog_output"></block>'+
 '        <block type="illuminance_digital"></block>'+
 '        <block type="illuminance_digital_output"></block>'+
-'      </category>' +*/
+'      </category>' +
 '      <category id="catdht" name="dht">' +
 '        <block type="dht"></block>'+
 '        <block type="dht_temp"></block>'+
 '        <block type="dht_humid"></block>'+
 '      </category>' +
 '      <category id="catlcd" name="lcd">' +
-'        <block type="lcd"></block>'+
+'        <block type="lcd_setup"></block>'+
+'        <block type="lcd_setcursor"></block>'+
+'        <block type="lcd_print"></block>'+
 '        <block type="lcd_text"></block>'+
 '        <block type="lcd_clear"></block>'+
 '        <block type="lcd_backlight"></block>'+
@@ -385,7 +373,9 @@ Ardublockly.TOOLBOX_XML =
 '    <sep></sep>' +
 '    <category id="catAirPurifier" name="AirPurifier">' +
 '      <category id="catlcd" name="lcd">' +
-'        <block type="lcd"></block>'+
+'        <block type="lcd_setup"></block>'+
+'        <block type="lcd_setcursor"></block>'+
+'        <block type="lcd_print"></block>'+
 '        <block type="lcd_text"></block>'+
 '        <block type="lcd_clear"></block>'+
 '        <block type="lcd_backlight"></block>'+
@@ -408,7 +398,9 @@ Ardublockly.TOOLBOX_XML =
 '     <sep></sep>'+
 '     <category id="catSmartFarm" name="Smartfarm">' +
 '      <category id="catlcd" name="lcd">' +
-'        <block type="lcd"></block>'+
+'        <block type="lcd_setup"></block>'+
+'        <block type="lcd_setcursor"></block>'+
+'        <block type="lcd_print"></block>'+
 '        <block type="lcd_text"></block>'+
 '        <block type="lcd_clear"></block>'+
 '        <block type="lcd_backlight"></block>'+
@@ -418,20 +410,20 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="lcd_autoscroll"></block>'+
 '        <block type="lcd_write"></block>'+
 '      </category>' +
-/*'      <category id="catillu" name="illu">' +
+'      <category id="catillu" name="illu">' +
 '        <block type="illuminance_analog"></block>'+
 '        <block type="illuminance_analog_output"></block>'+
 '        <block type="illuminance_digital"></block>'+
 '        <block type="illuminance_digital_output"></block>'+
-'      </category>' +*/
+'      </category>' +
 '      <category id="catdht" name="dht">' +
 '        <block type="dht"></block>'+
 '        <block type="dht_temp"></block>'+
 '        <block type="dht_humid"></block>'+
 '      </category>' +
-/*'      <category id="catSoilmoisture" name="Soilmoisture">' +
+'      <category id="catSoilmoisture" name="Soilmoisture">' +
 '        <block type="soilmoisture"></block>' +
 '        <block type="soilmoisture_output"></block>' +
-'      </category>' +*/
+'      </category>' +
 '     </category>' +
 '</xml>';

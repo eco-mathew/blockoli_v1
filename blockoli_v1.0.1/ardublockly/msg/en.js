@@ -95,6 +95,7 @@ Ardublockly.LOCALISED_TEXT = {
   catMotors: "Motors",
   catComms: "Comms",
   catSmartCity: "smartcity Kit",
+  catTrafficLED: "trafficLED",
   catLED: "3colorLED",
   catUltra_sonic: "UltraSonic Sensor",
   catillu: "Light Sensor",

@@ -9,7 +9,7 @@
  */
 'use strict';
 
-goog.provide('Blockly.Arduino.IO');
+goog.provide('Blockly.Arduino.io');
 
 goog.require('Blockly.Arduino');
 
@@ -66,11 +66,11 @@ Blockly.Arduino['3_led_digital'] = function(block) {
   var Blue_DPin = block.getFieldValue('BLUE_DPIN');
 
   var red_state = Blockly.Arduino.valueToCode(
-      block, 'RED_STATE', Blockly.Arduino.ORDER_ATOMIC) || 'LOW';
+      block, 'TRED_STATE', Blockly.Arduino.ORDER_ATOMIC) || 'LOW';
   var green_state = Blockly.Arduino.valueToCode(
-      block, 'GREEN_STATE', Blockly.Arduino.ORDER_ATOMIC) || 'LOW';
+      block, 'TGREEN_STATE', Blockly.Arduino.ORDER_ATOMIC) || 'LOW';
   var blue_state = Blockly.Arduino.valueToCode(
-      block, 'BLUE_STATE', Blockly.Arduino.ORDER_ATOMIC) || 'LOW';
+      block, 'TBLUE_STATE', Blockly.Arduino.ORDER_ATOMIC) || 'LOW';
 
   Blockly.Arduino.reservePin(
       block, Red_DPin, Blockly.Arduino.PinTypes.OUTPUT, 'Digital Write');

@@ -12,7 +12,7 @@ Blockly.Arduino['dht'] = function(block) {
   Blockly.Arduino.reservePin(block, dhtpin, Blockly.Arduino.dht, 'dhtpin');
 
   Blockly.Arduino.addInclude('dht', '#include "DHT.h"');
-  //Blockly.Arduino.addDeclaration('servo_' + pinKey, 'Servo ' + servoName + ';');
+  
   Blockly.Arduino.addDeclaration('dht_'+ dhtpin, '#define DHTPIN'+ dhtpin+' '+dhtpin +'\n' + '#define DHTTYPE DHT11' +'\n' +
   'DHT dht(DHTPIN'+ dhtpin +' '+', DHTTYPE);');
 

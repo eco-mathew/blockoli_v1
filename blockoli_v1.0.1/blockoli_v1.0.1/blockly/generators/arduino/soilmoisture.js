@@ -27,12 +27,12 @@ Blockly.Arduino['soilmoisture'] = function(block) {
 
   Blockly.Arduino.addDeclaration('soilmoisture_', '#define soilmoisturepin ' + soilmoisture_pin);
 
-  var pinSetupCode = 'pinMode(' + soilmoisture_pin + ', INPUT);';
+  var pinSetupCode = 'pinMode(soilmoisturepin, INPUT);';
 
   Blockly.Arduino.addSetup('io_' + soilmoisture_pin, pinSetupCode, false);
 
   Blockly.Arduino.addFunction('soilmoisture_func', 'int readSoilmoisture(){' + '\n' +
-  '\t' + 'int soilmoisture_val = analogRead(soilmoisture_pin);' + '\n' +
+  '\t' + 'int soilmoisture_val = analogRead(soilmoisturepin);' + '\n' +
   '\t' + 'int soilmoisture_per = map(soilmoisture_val, 170, 1023, 100, 0);' + '\n' +
   '\t' + 'return soilmoisture_per;' + '\n' +
   '}'

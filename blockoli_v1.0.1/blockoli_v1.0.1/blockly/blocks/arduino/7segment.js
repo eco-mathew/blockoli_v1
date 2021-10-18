@@ -74,3 +74,11 @@ Blockly.Blocks['showNumberDec'] = {
  this.setHelpUrl("");
   }
 };
+
+Blockly.Blocks['encodeDigit'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("문자열 출력 ")
+        
+  }
+}

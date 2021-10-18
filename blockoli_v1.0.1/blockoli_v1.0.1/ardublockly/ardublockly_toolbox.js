@@ -363,6 +363,7 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="lcd_scrollDisplayLeft"></block>'+
 '        <block type="lcd_autoscroll"></block>'+
 '        <block type="lcd_write"></block>'+
+'        <block type="lcd_createchar"></block>'+
 '     </category>' +
 '     <category id="cat7segment" name="sevensegment">' +
 '        <block type="sevensegment"></block>'+
@@ -384,6 +385,7 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="lcd_scrollDisplayLeft"></block>'+
 '        <block type="lcd_autoscroll"></block>'+
 '        <block type="lcd_write"></block>'+
+'        <block type="lcd_createchar"></block>'+
 '      </category>' +
 '      <category id="catFineDust" name="FineDust">' +
 '        <block type="finedust"></block>' +
@@ -409,6 +411,7 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="lcd_scrollDisplayLeft"></block>'+
 '        <block type="lcd_autoscroll"></block>'+
 '        <block type="lcd_write"></block>'+
+'        <block type="lcd_createchar"></block>'+
 '      </category>' +
 '      <category id="catillu" name="illu">' +
 '        <block type="illuminance_analog"></block>'+

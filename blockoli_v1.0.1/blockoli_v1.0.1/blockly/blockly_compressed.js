@@ -16093,15 +16093,15 @@ Blockly.FieldCheckbox = function(a, b) {
   this.setValue(a)
 };
 goog.inherits(Blockly.FieldCheckbox, Blockly.Field);
-Blockly.FieldCheckbox.CHECK_CHAR = "\u2713";
+Blockly.FieldCheckbox.CHECK_CHAR = "\u258A";
 Blockly.FieldCheckbox.prototype.CURSOR = "default";
 Blockly.FieldCheckbox.prototype.init = function() {
   if (!this.fieldGroup_) {
     Blockly.FieldCheckbox.superClass_.init.call(this);
     this.checkElement_ = Blockly.createSvgElement("text", {
       "class": "blocklyText blocklyCheckbox",
-      x: -3,
-      y: 14
+      x: -3.7,
+      y: 12.3
     }, this.fieldGroup_);
     var a = document.createTextNode(Blockly.FieldCheckbox.CHECK_CHAR);
     this.checkElement_.appendChild(a);
